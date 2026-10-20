@@ -107,3 +107,12 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 **Việc tiếp theo:** dự đoán đầu ra mới có văn bản trong dấu nháy và phép tính, giữ đúng xuống dòng; ôn nghĩa của output. Tiếp tục các phần còn lại của W01-S1.
 
 **Trạng thái:** đã ghi nhận một phần bài khởi động; chưa đánh dấu hoàn thành W01-S1 hoặc hai tiêu chí của tuần W01. Chưa có xác nhận người học đã chạy code.
+
+
+### W01-S1 — Bổ sung thực hành print — 2026-10-20
+
+- Ví dụ `print("3 * 2")`: người học dự đoán đúng `3 * 2` (văn bản trong dấu nháy được hiển thị nguyên dạng).
+- Ví dụ `print("Result")` rồi `print(3 * 2)`: người học trả lời đúng hai dòng riêng: `Result` và `6`.
+- Quan sát: đã thể hiện đúng sự khác nhau giữa văn bản và phép tính, cũng như xuống dòng mặc định của hai lệnh `print`. Đây là câu trả lời dự đoán, chưa ghi nhận chạy Python.
+- Đánh giá: đạt các câu hỏi củng cố ngắn về `print`; W01-S1 chưa hoàn thành vì còn phần input/process/output, khảo sát và đọc hiểu trong giáo án. Chưa tích ô buổi hoặc ô tuần.
+- Bước tiếp theo: học đầu vào, xử lý, đầu ra; thực hành xác định từng phần trong một ví dụ đơn giản.
