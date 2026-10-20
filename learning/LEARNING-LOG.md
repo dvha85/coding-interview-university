@@ -2,7 +2,7 @@
 
 [Kế hoạch](../PLAN.md) · [Checklist](../CHECKLIST.md) · [Từ vựng](VOCABULARY.md) · [Bài đầu tiên](lessons/W01-S1.md)
 
-**Ngày khởi tạo:** 20/10/2026. **Trạng thái:** đang học W01-S1; đã ghi nhận ba câu trả lời khởi động ngày 20/10/2026, chưa hoàn thành cả buổi. Các phần mẫu bên dưới dùng để bổ sung bằng chứng thực tế.
+**Ngày khởi tạo:** 20/10/2026. **Trạng thái:** đang học W01-S1; đã ghi nhận các câu trả lời khởi động, bài tập `print` và Input–Process–Output ngày 20/10/2026, chưa hoàn thành cả buổi. Các phần mẫu bên dưới dùng để bổ sung bằng chứng thực tế.
 
 CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. Khi cập nhật, thêm bản ghi mới hoặc bổ sung bản ghi của buổi tương ứng, giữ lại những lần làm trước và phần sửa lỗi.
 
@@ -10,7 +10,7 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | Tiếp W01-S1 — củng cố xuống dòng và phân biệt văn bản với phép tính |
+| Buổi tiếp theo | Tiếp W01-S1 — từ bài toán Input–Process–Output sang mã Python; bài đọc và sửa lỗi cú pháp |
 | Trình độ lập trình | Chưa đánh giá |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
 | Khả năng đọc tiếng Anh | Chưa đánh giá |
@@ -116,3 +116,16 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Quan sát: đã thể hiện đúng sự khác nhau giữa văn bản và phép tính, cũng như xuống dòng mặc định của hai lệnh `print`. Đây là câu trả lời dự đoán, chưa ghi nhận chạy Python.
 - Đánh giá: đạt các câu hỏi củng cố ngắn về `print`; W01-S1 chưa hoàn thành vì còn phần input/process/output, khảo sát và đọc hiểu trong giáo án. Chưa tích ô buổi hoặc ô tuần.
 - Bước tiếp theo: học đầu vào, xử lý, đầu ra; thực hành xác định từng phần trong một ví dụ đơn giản.
+
+
+<a id="w01-s1-ipo-2026-10-20"></a>
+
+### W01-S1 — Thực hành Input–Process–Output — 2026-10-20
+
+- Đề bài: khách hàng mua **4 chiếc bút**, đơn giá **5.000 đồng/chiếc**.
+- Người học trả lời: **Input:** số lượng 4, đơn giá 5000. **Process:** nhân số lượng với đơn giá. **Output:** tổng tiền 20000.
+- Đánh giá: đúng cả ba phần, xác định chính xác dữ liệu cần thiết, thao tác tính toán và kết quả cuối cùng 20.000 đồng.
+- Bằng chứng là câu trả lời trong chat, không phải chương trình Python đã chạy. Chưa ghi thời lượng thực học.
+- Tiếng Anh: đã dùng đúng cách phân loại Input, Process, Output trong tình huống mới. Chưa đánh giá bài đọc độc lập và đủ 5 từ vựng.
+- Bước tiếp theo: biểu diễn ví dụ bằng mã `print(4 * 5000)`; trả lời phần sửa lỗi dấu ngoặc và bài đọc tiếng Anh trong W01-S1.
+- Trạng thái: tiếp tục W01-S1, **chưa tích ô hoàn thành buổi hoặc tiêu chí cả tuần**.
