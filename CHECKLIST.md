@@ -2,20 +2,20 @@
 
 [Kế hoạch chi tiết](PLAN.md) · [Bài đầu tiên](learning/lessons/W01-S1.md) · [Nhật ký](learning/LEARNING-LOG.md) · [Sổ từ vựng](learning/VOCABULARY.md)
 
-**Ngày khởi tạo:** 20/10/2026. **Phạm vi:** 48 tuần học, 12 chặng, 240 buổi theo lịch mẫu 8 giờ/tuần. Tất cả ô bắt đầu chưa đánh dấu; đây là tiến độ của kế hoạch mới, chưa có bài làm được đánh giá.
+**Ngày khởi tạo:** 20/10/2026. **Phạm vi:** 48 tuần học, 12 chặng, 240 buổi theo lịch mẫu 8 giờ/tuần. Đã bắt đầu bài khởi động W01-S1 ngày 20/10/2026; các ô hoàn thành vẫn chưa đánh dấu vì mới có bằng chứng cho một phần buổi.
 
 ## Bảng tiến độ hiện tại
 
 | Chỉ số | Giá trị |
 |---|---|
-| Tuần đang học | W01 — chưa bắt đầu |
-| Buổi tiếp theo | [W01-S1](learning/lessons/W01-S1.md) |
+| Tuần đang học | W01 — đang học W01-S1 |
+| Buổi tiếp theo | Tiếp [W01-S1](learning/lessons/W01-S1.md) — xuống dòng và văn bản/phép tính |
 | Buổi đã thực hiện | 0/240 |
 | Tuần đạt kỹ thuật | 0/48 — 0% |
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
-| Thời gian thực học đã ghi | 0 giờ |
-| Cập nhật gần nhất | 2026-10-20 — tạo kế hoạch, chưa ghi nhận kết quả học |
+| Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
+| Cập nhật gần nhất | 2026-10-20 — ghi nhận ba câu trả lời khởi động W01-S1 |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -65,8 +65,8 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 - [ ] **W01-TECH — Kỹ thuật đạt:** Tự mở và chạy file .py; phân biệt mã nguồn với kết quả; đổi nội dung để kiểm tra hành vi; xem được thay đổi chưa commit bằng git diff.
 - [ ] **W01-EN — Tiếng Anh đạt:** Đạt tiêu chí 4/5 từ trong câu mới và đọc hiểu ở trên; đã lưu câu trả lời thực tế.
 
-**Bằng chứng:** chưa có — ghi đường dẫn bài làm hoặc mã bản ghi trong [nhật ký](learning/LEARNING-LOG.md).  
-**Ngày học/đánh giá:** chưa ghi · **Ngày ôn tiếp:** chưa ghi · **Việc cần sửa:** chưa đánh giá.
+**Bằng chứng:** [W01-S1 — khởi động lần 1](learning/LEARNING-LOG.md#w01-s1-2026-10-20-a1): đúng chữ/số và bản dịch Run the program; đang củng cố cách xuống dòng.  
+**Ngày học/đánh giá:** 2026-10-20, mới một phần S1 · **Ngày ôn tiếp:** chưa ấn định · **Việc cần làm:** phân biệt văn bản/phép tính và hoàn thành các phần còn lại của S1.
 
 <a id="w02"></a>
 
