@@ -1,5 +1,11 @@
 # Coding Interview University
 
+## Kế hoạch học cá nhân: lập trình và tiếng Anh
+
+[Kế hoạch chi tiết](PLAN.md) · [Checklist tiến độ](CHECKLIST.md) · [Bài học đầu tiên](learning/lessons/W01-S1.md) · [Nhật ký học](learning/LEARNING-LOG.md) · [Sổ từ vựng](learning/VOCABULARY.md)
+
+Lộ trình bằng tiếng Việt, dùng Python để học nền tảng và luyện tiếng Anh qua nội dung công nghệ; 48 tuần học linh hoạt, theo dõi riêng kỹ thuật và tiếng Anh. Bắt đầu tại W01-S1.
+
 > I originally created this as a short to-do list of study topics for becoming a software engineer,
 > but it grew to the large list you see today. After going through this study plan, [I got hired
 > as a Software Development Engineer at Amazon](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)!
