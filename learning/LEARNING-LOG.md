@@ -129,3 +129,12 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Tiếng Anh: đã dùng đúng cách phân loại Input, Process, Output trong tình huống mới. Chưa đánh giá bài đọc độc lập và đủ 5 từ vựng.
 - Bước tiếp theo: biểu diễn ví dụ bằng mã `print(4 * 5000)`; trả lời phần sửa lỗi dấu ngoặc và bài đọc tiếng Anh trong W01-S1.
 - Trạng thái: tiếp tục W01-S1, **chưa tích ô hoàn thành buổi hoặc tiêu chí cả tuần**.
+
+
+### W01-S1 — Sửa lỗi ngoặc đóng trong print — 2026-10-20
+
+- Đề bài: tìm và sửa lỗi trong `print("Hello, Python!"`.
+- Người học xác định chính xác thiếu dấu ngoặc đóng `)` và viết lại `print("Hello, Python!")`.
+- Đánh giá: đúng cú pháp. Đây là nhận diện/sửa lỗi trong chat; chưa có bằng chứng đã chạy Python.
+- Từ tiếng Anh đã giới thiệu: syntax, error, syntax error, parenthesis, fix. Chưa kiểm tra mức độ ghi nhớ.
+- Trạng thái: W01-S1 tiếp tục; còn kiểm tra diễn giải chương trình so với chỉ dẫn và đọc hiểu tiếng Anh trước khi đánh dấu buổi hoàn thành.
