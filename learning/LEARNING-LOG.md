@@ -148,3 +148,12 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Người học giải thích: `program` là tập hợp các câu lệnh; phân biệt đúng với `instruction` là một chỉ dẫn/câu lệnh cụ thể. Lưu ý bổ sung: chương trình cũng có thể có một câu lệnh.
 - Kết quả: hiểu đúng đoạn đọc ngắn và quan hệ program/instruction; chưa kiểm tra toàn bộ bài đọc 67 từ, chưa kiểm tra năm từ trong ngữ cảnh mới.
 - Trạng thái: tiếp tục W01-S1, chưa đánh dấu hoàn thành cả buổi; chưa có xác nhận đã chạy Python hay thời lượng thực tế.
+
+
+### W01-S1 — Dịch câu về predict / output — 2026-10-20
+
+- Câu tiếng Anh: “Before you run a program, try to predict its output.”
+- Người học dịch: “Trước khi bạn chạy một chương trình hãy dự đoán kết quả trả về”.
+- Từ vựng: hiểu đúng `predict` = **dự đoán** và đúng ý chính của cả câu.
+- Phản hồi: `try to` = **hãy thử/cố gắng**; ở đây `output` nên dịch là **kết quả đầu ra**, không nhất thiết là giá trị trả về của một hàm.
+- Trạng thái: đã làm thêm bài đọc hiểu ngắn W01-S1; chưa đánh dấu hoàn thành cả buổi do vẫn còn nội dung thực hành/kiểm tra. Chưa xác nhận chạy mã Python.
