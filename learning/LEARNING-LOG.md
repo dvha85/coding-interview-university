@@ -157,3 +157,13 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Từ vựng: hiểu đúng `predict` = **dự đoán** và đúng ý chính của cả câu.
 - Phản hồi: `try to` = **hãy thử/cố gắng**; ở đây `output` nên dịch là **kết quả đầu ra**, không nhất thiết là giá trị trả về của một hàm.
 - Trạng thái: đã làm thêm bài đọc hiểu ngắn W01-S1; chưa đánh dấu hoàn thành cả buổi do vẫn còn nội dung thực hành/kiểm tra. Chưa xác nhận chạy mã Python.
+
+
+### W01-S1 — Đọc hiểu compare / prediction / result — 2026-10-20
+
+- Câu tiếng Anh: “Then compare your prediction with the result.”
+- Người học dịch: “Sau đó so sánh dự đoán của bạn với kết quả trả về”.
+- Người học trả lời đúng: `compare` = **so sánh**.
+- Đánh giá: đúng ý chính; nên dịch `result` là **kết quả/kết quả thực tế** trong ngữ cảnh so sánh dự đoán với đầu ra, không nhất thiết là giá trị trả về của hàm. `prediction` = **sự dự đoán**.
+- Củng cố: Predict → Run → Compare (Dự đoán → Chạy → So sánh).
+- Bước tiếp theo: bài kiểm tra tổng hợp ngắn W01-S1 để xác nhận đọc hiểu, thuật ngữ và khả năng đọc/sửa Python. Chưa đánh dấu hoàn thành buổi trước khi nhận bài kiểm tra.
