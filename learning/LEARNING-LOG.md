@@ -138,3 +138,13 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Đánh giá: đúng cú pháp. Đây là nhận diện/sửa lỗi trong chat; chưa có bằng chứng đã chạy Python.
 - Từ tiếng Anh đã giới thiệu: syntax, error, syntax error, parenthesis, fix. Chưa kiểm tra mức độ ghi nhớ.
 - Trạng thái: W01-S1 tiếp tục; còn kiểm tra diễn giải chương trình so với chỉ dẫn và đọc hiểu tiếng Anh trước khi đánh dấu buổi hoàn thành.
+
+
+### W01-S1 — Bài đọc ngắn và phân biệt program / instruction — 2026-10-20
+
+- Bài đọc: “A program is a set of instructions for a computer. Some programs receive input and produce output.”
+- Người học dịch: “Một chương trình là 1 tập hợp các câu lệnh cho máy tính. Một số chương trình nhận các tham số đầu vào và tạo ra các kết quả trả về”.
+- Nhận xét: đúng ý chính của cả hai câu; cần ưu tiên dịch `input` là **dữ liệu đầu vào** (không nhất thiết là tham số) và `output` là **đầu ra** (không nhất thiết là giá trị trả về từ hàm).
+- Người học giải thích: `program` là tập hợp các câu lệnh; phân biệt đúng với `instruction` là một chỉ dẫn/câu lệnh cụ thể. Lưu ý bổ sung: chương trình cũng có thể có một câu lệnh.
+- Kết quả: hiểu đúng đoạn đọc ngắn và quan hệ program/instruction; chưa kiểm tra toàn bộ bài đọc 67 từ, chưa kiểm tra năm từ trong ngữ cảnh mới.
+- Trạng thái: tiếp tục W01-S1, chưa đánh dấu hoàn thành cả buổi; chưa có xác nhận đã chạy Python hay thời lượng thực tế.
