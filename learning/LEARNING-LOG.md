@@ -10,11 +10,11 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | W01-S2 — cài Python và kiểm chứng kết quả bằng chạy chương trình thật |
+| Buổi tiếp theo | [W01-S2](lessons/W01-S2.md) — kiểm tra Python trên Windows 11, cài và chạy chương trình thật |
 | Trình độ lập trình | W01-S1: dự đoán đầu ra, cú pháp print, bài toán Input–Process–Output đạt 5/5 câu đánh giá |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
 | Khả năng đọc tiếng Anh | W01-S1: hiểu 5/5 thuật ngữ và dịch đúng câu đọc hiểu ngắn; đánh giá tuần ở W01-S5 |
-| Thiết bị và hệ điều hành thực hành | Chưa ghi nhận; xác định khi làm W01-S2 |
+| Thiết bị và hệ điều hành thực hành | Windows 11 (người học xác nhận 21/10/2026); chưa xác nhận trình soạn thảo |
 | Python thực tế | Chưa kiểm tra phiên bản/chạy thử |
 | Giờ học có thể duy trì | Chưa xác nhận; nhịp mẫu trong plan là 8 giờ/tuần |
 | Ngày bắt đầu thực học | 2026-10-20 — bài khởi động trong chat |
@@ -181,3 +181,11 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - **Tổng 5/5 câu, PASS W01-S1** theo bài kiểm tra đầu ra và chuỗi bài làm trước đó; phần bài đọc đầy đủ được củng cố qua các đoạn đọc nhỏ tương ứng.
 - Không có lỗi kiến thức cần sửa. Việc chạy Python thực tế chuyển sang W01-S2. Không có bằng chứng chạy mã, và **thời gian học thực tế chưa được cung cấp**; không tự suy ra đã học đủ 90 phút.
 - Buổi W01-S1 đánh dấu đã thực hiện theo bằng chứng học và đánh giá tương đương; **hai tiêu chí W01-TECH và W01-EN chưa đánh dấu**, sẽ xét cuối W01-S5 theo tiêu chí tuần.
+
+
+### W01-S2 — Chuẩn bị môi trường Windows 11 — 2026-10-21
+
+- Người học xác nhận hệ điều hành: **Windows 11**.
+- Đã chuẩn bị [giáo án W01-S2 riêng cho Windows 11](lessons/W01-S2.md), gồm kiểm tra/cài Python, chạy REPL, chạy file `hello.py`, từ vựng và tiêu chí kiểm chứng.
+- Chưa xác nhận Python, Visual Studio Code đã cài hay kết quả lệnh chạy thực tế. **W01-S2 chưa hoàn thành**, chưa đánh dấu checklist.
+- Bước tiếp theo: người học chạy `python --version` và `py --version`, gửi đầu ra thực tế để tiếp tục.
