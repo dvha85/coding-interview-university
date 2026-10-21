@@ -10,12 +10,12 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | [W01-S2](lessons/W01-S2.md) — đã chạy REPL và `hello.py`; còn kiểm tra biến thể và đọc hiểu tiếng Anh |
+| Buổi tiếp theo | [W01-S2](lessons/W01-S2.md) — đã đạt cả chạy REPL, tệp `.py` và biến thể; còn phần đọc hiểu tiếng Anh |
 | Trình độ lập trình | W01-S1: dự đoán đầu ra, cú pháp print, bài toán Input–Process–Output đạt 5/5 câu đánh giá |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
 | Khả năng đọc tiếng Anh | W01-S1: hiểu 5/5 thuật ngữ và dịch đúng câu đọc hiểu ngắn; đánh giá tuần ở W01-S5 |
 | Thiết bị và hệ điều hành thực hành | Windows 11 (người học xác nhận 21/10/2026); chưa xác nhận trình soạn thảo |
-| Python thực tế | Đã chạy Python 3.13.13 (Anaconda) ở REPL và từ tệp `hello.py`; cả hai lần đều hiện `Hello, Python!` và `15`; `py --version` → Python 3.11.9 |
+| Python thực tế | Đã chạy Python 3.13.13 (Anaconda) từ REPL và tệp `hello.py` (đầu ra `Hello, Python!` / `15`), biến thể `print(4 + 6)` (đầu ra `Hello, Python!` / `10`); `py --version` → Python 3.11.9 |
 | Giờ học có thể duy trì | Chưa xác nhận; nhịp mẫu trong plan là 8 giờ/tuần |
 | Ngày bắt đầu thực học | 2026-10-20 — bài khởi động trong chat |
 
@@ -246,3 +246,28 @@ Hello, Python!
 - **Đánh giá:** PASS bước chạy tệp `hello.py`; Python thực thi được tệp `.py` từ thư mục làm việc và in hai dòng đầu ra mong đợi, khớp kết quả bài tương tác.
 - Trạng thái W01-S2: đã kiểm tra môi trường, chạy Python tương tác và chạy từ tệp; **chưa hoàn thành cả buổi** vì chưa có kết quả biến thể `print(4 + 6)`, bài đọc hiểu tiếng Anh và thời gian thực hành. Chưa tự suy ra tệp `hello.py` đã được đưa lên GitHub.
 - Bước tiếp theo: sửa dòng thứ hai thành `print(4 + 6)`, dự đoán rồi chạy lại `python .\hello.py`; dịch câu “Open the terminal. Check the Python version. Run the script and compare the output with your prediction.” bằng tiếng Việt.
+
+
+<a id="w01-s2-verify-2026-10-21"></a>
+
+### W01-S2 — Biến thể print, dự đoán và kiểm chứng đúng — 2026-10-21
+
+- Yêu cầu: sửa dòng thứ hai trong `hello.py` thành `print(4 + 6)`, **dự đoán trước khi chạy**, sau đó so sánh với đầu ra thực tế.
+- Dự đoán của người học, đúng hai dòng:
+
+```text
+Hello, Python!
+10
+```
+
+- Người học cung cấp bằng chứng **đã chạy thật**:
+
+```powershell
+(base) PS D:\Project\Learn\python-study> python .\hello.py
+Hello, Python!
+10
+```
+
+- **Đánh giá: PASS** — dự đoán và đầu ra thực tế khớp hoàn toàn; xác nhận thành thạo bước Modify → Run → Verify ở mức bài học này.
+- **W01-S2 chưa chấm hoàn thành**: đã chạy Python tương tác, tệp `.py` và biến thể; còn câu đọc hiểu tiếng Anh W01-S2, xác nhận công cụ soạn thảo nếu cần và ghi nhận thời lượng thực tế (chưa được cung cấp). Không thay đổi hai ô đánh giá cả tuần W01-TECH / W01-EN.
+- Bước tiếp theo: dịch câu “Open the terminal. Check the Python version. Run the script and compare the output with your prediction.” và nhận diện từ vựng `terminal`, `version`, `script`.
