@@ -10,7 +10,7 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | W01-S3 — Git cơ bản: clone, status, diff, add, commit |
+| Buổi tiếp theo | [W01-S3](lessons/W01-S3.md) — Git 2.55.0.windows.5 đã hoạt động; bước kế tiếp clone bản sao thực hành |
 | Trình độ lập trình | W01-S1: PASS 5/5; W01-S2: đã chạy REPL, tệp hello.py và biến thể sau khi dự đoán; đầu ra khớp thực tế |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
 | Khả năng đọc tiếng Anh | W01-S1: 5/5 từ; W01-S2: dịch đúng hướng dẫn và 3/3 từ (install, interpreter, script); đánh giá tuần ở W01-S5 |
@@ -283,3 +283,15 @@ Hello, Python!
 - **W01-S2: PASS** trên các kết quả có bằng chứng: Windows 11 có Python 3.13.13 (Anaconda); `python --version` và `py --version` hoạt động; chạy REPL; chạy `hello.py` từ PowerShell; sửa `print(4 + 6)`, dự đoán và kiểm chứng đúng `Hello, Python!` và `10`; hoàn thành bài đọc hiểu.
 - Đánh dấu W01-S2 đã thực hiện dựa trên bài thực hành và kiểm tra. **Chưa có:** thời lượng thực học, tên trình soạn thảo, xác nhận đã đưa `hello.py` lên GitHub. Không suy ra người học đã học đủ 90 phút; không đánh dấu **W01-TECH** hoặc **W01-EN** trước kỳ đánh giá ở W01-S5.
 - **Buổi tiếp theo:** W01-S3 — Git cơ bản: `clone`, `status`, `diff`, `add`, `commit`, song song luyện từ vựng công nghệ bằng tiếng Việt.
+
+
+<a id="w01-s3-git-version-2026-10-21"></a>
+
+### W01-S3 — Kiểm tra phiên bản Git trên Windows 11 — 2026-10-21
+
+- Người học chạy `git --version` ở PowerShell, từ thư mục học Python.
+- **Đầu ra thực tế do người học gửi:** `git version 2.55.0.windows.5`.
+- Đánh giá: **PASS bước kiểm tra Git CLI** — Git được cài và hoạt động; chưa có bằng chứng `git clone`, `git status`, `git diff`, `git add`, `git commit`.
+- Đã tạo [giáo án W01-S3 Windows 11](lessons/W01-S3.md), sử dụng bản sao cục bộ `ciu-git-practice` để không đụng đến dự án Python đang làm. Không yêu cầu `git push`.
+- **Trạng thái:** W01-S3 đang học, chưa hoàn thành; số buổi vẫn **2/240**; chưa có thời lượng thực tế hay kết quả bài đọc tiếng Anh W01-S3.
+- **Tiếp theo:** PowerShell `cd D:\Project\Learn`; `git clone https://github.com/dvha85/coding-interview-university.git ciu-git-practice`; `cd .\ciu-git-practice`; `git status`; gửi đầu ra thực tế.
