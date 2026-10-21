@@ -2,7 +2,7 @@
 
 [Kế hoạch](../PLAN.md) · [Checklist](../CHECKLIST.md) · [Từ vựng](VOCABULARY.md) · [Bài đầu tiên](lessons/W01-S1.md)
 
-**Ngày khởi tạo:** 20/10/2026. **Trạng thái:** W01-S1 đã đạt bài kiểm tra tổng hợp 5/5 ngày 21/10/2026; chuyển sang W01-S2. Buổi S1 được xác nhận bằng bài làm trong chat, thời lượng thực tế chưa ghi. Các phần mẫu bên dưới dùng để bổ sung bằng chứng thực tế.
+**Ngày khởi tạo:** 20/10/2026. **Trạng thái:** W01-S1 PASS (5/5) và W01-S2 PASS (thực hành Python + đọc hiểu tiếng Anh) ngày 21/10/2026; chuyển sang W01-S3. Chưa có số phút học thực tế. Các phần mẫu bên dưới dùng để bổ sung bằng chứng thực tế.
 
 CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. Khi cập nhật, thêm bản ghi mới hoặc bổ sung bản ghi của buổi tương ứng, giữ lại những lần làm trước và phần sửa lỗi.
 
@@ -10,10 +10,10 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | [W01-S2](lessons/W01-S2.md) — đã đạt cả chạy REPL, tệp `.py` và biến thể; còn phần đọc hiểu tiếng Anh |
-| Trình độ lập trình | W01-S1: dự đoán đầu ra, cú pháp print, bài toán Input–Process–Output đạt 5/5 câu đánh giá |
+| Buổi tiếp theo | W01-S3 — Git cơ bản: clone, status, diff, add, commit |
+| Trình độ lập trình | W01-S1: PASS 5/5; W01-S2: đã chạy REPL, tệp hello.py và biến thể sau khi dự đoán; đầu ra khớp thực tế |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
-| Khả năng đọc tiếng Anh | W01-S1: hiểu 5/5 thuật ngữ và dịch đúng câu đọc hiểu ngắn; đánh giá tuần ở W01-S5 |
+| Khả năng đọc tiếng Anh | W01-S1: 5/5 từ; W01-S2: dịch đúng hướng dẫn và 3/3 từ (install, interpreter, script); đánh giá tuần ở W01-S5 |
 | Thiết bị và hệ điều hành thực hành | Windows 11 (người học xác nhận 21/10/2026); chưa xác nhận trình soạn thảo |
 | Python thực tế | Đã chạy Python 3.13.13 (Anaconda) từ REPL và tệp `hello.py` (đầu ra `Hello, Python!` / `15`), biến thể `print(4 + 6)` (đầu ra `Hello, Python!` / `10`); `py --version` → Python 3.11.9 |
 | Giờ học có thể duy trì | Chưa xác nhận; nhịp mẫu trong plan là 8 giờ/tuần |
@@ -271,3 +271,15 @@ Hello, Python!
 - **Đánh giá: PASS** — dự đoán và đầu ra thực tế khớp hoàn toàn; xác nhận thành thạo bước Modify → Run → Verify ở mức bài học này.
 - **W01-S2 chưa chấm hoàn thành**: đã chạy Python tương tác, tệp `.py` và biến thể; còn câu đọc hiểu tiếng Anh W01-S2, xác nhận công cụ soạn thảo nếu cần và ghi nhận thời lượng thực tế (chưa được cung cấp). Không thay đổi hai ô đánh giá cả tuần W01-TECH / W01-EN.
 - Bước tiếp theo: dịch câu “Open the terminal. Check the Python version. Run the script and compare the output with your prediction.” và nhận diện từ vựng `terminal`, `version`, `script`.
+
+
+<a id="w01-s2-final-2026-10-21"></a>
+
+### W01-S2 — Tổng kết đọc hiểu tiếng Anh và PASS — 2026-10-21
+
+- Người học dịch câu “Open the terminal. Check the Python version. Run the script and compare the output with your prediction.” thành: **“Mở cửa sổ dòng lệnh. Kiểm tra phiên bản python. Chạy tập lệnh và so sánh kết quả thực tế với dự đoán của bạn”**.
+- **Đánh giá đọc hiểu: đúng** — hiểu terminal, version, script, output, prediction và quy trình chạy/so sánh.
+- Ba từ cần dịch: `install` → **cài đặt**; `interpreter` → **trình thông dịch**; `script` → **tập lệnh**. **Đúng 3/3**.
+- **W01-S2: PASS** trên các kết quả có bằng chứng: Windows 11 có Python 3.13.13 (Anaconda); `python --version` và `py --version` hoạt động; chạy REPL; chạy `hello.py` từ PowerShell; sửa `print(4 + 6)`, dự đoán và kiểm chứng đúng `Hello, Python!` và `10`; hoàn thành bài đọc hiểu.
+- Đánh dấu W01-S2 đã thực hiện dựa trên bài thực hành và kiểm tra. **Chưa có:** thời lượng thực học, tên trình soạn thảo, xác nhận đã đưa `hello.py` lên GitHub. Không suy ra người học đã học đủ 90 phút; không đánh dấu **W01-TECH** hoặc **W01-EN** trước kỳ đánh giá ở W01-S5.
+- **Buổi tiếp theo:** W01-S3 — Git cơ bản: `clone`, `status`, `diff`, `add`, `commit`, song song luyện từ vựng công nghệ bằng tiếng Việt.
