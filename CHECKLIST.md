@@ -8,14 +8,14 @@
 
 | Chỉ số | Giá trị |
 |---|---|
-| Tuần đang học | W01 — W01-S1 và W01-S2 PASS, chuẩn bị W01-S3 |
-| Buổi tiếp theo | W01-S3 — Git cơ bản: clone, status, diff, add, commit |
+| Tuần đang học | W01 — W01-S1 và W01-S2 PASS, W01-S3 đang học |
+| Buổi tiếp theo | [W01-S3](learning/lessons/W01-S3.md) — Git đã cài, tiếp theo clone và kiểm tra status |
 | Buổi đã thực hiện | 2/240 (W01-S1, W01-S2; thời lượng thực tế chưa ghi) |
 | Tuần đạt kỹ thuật | 0/48 — 0% |
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-21 — W01-S2 PASS: Python chạy thật, biến thể đúng, dịch câu đọc và 3/3 từ vựng; kế tiếp W01-S3 |
+| Cập nhật gần nhất | 2026-10-21 — W01-S3: `git --version` → `git version 2.55.0.windows.5`; clone chưa thực hiện |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -52,9 +52,11 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 
 - [x] **W01-S1 · 90 phút:** Làm khảo sát đầu vào 40 phút; học 50 phút về chương trình, chỉ dẫn, đầu vào, đầu ra và chạy chương trình theo bài W01-S1.
 - [x] **[W01-S2](learning/lessons/W01-S2.md) · 90 phút:** Cài Python 3 và trình soạn thảo phù hợp trên Windows 11; chạy phiên tương tác và file .py, ghi phiên bản cùng lệnh đã dùng.
-- [ ] **W01-S3 · 90 phút:** Thực hành clone, status, diff, add và commit trên bài tập riêng; đọc thông báo Git ngắn và giải thích bằng tiếng Việt.
+- [ ] **[W01-S3](learning/lessons/W01-S3.md) · 90 phút:** Thực hành clone, status, diff, add và commit trên bài tập riêng; đọc thông báo Git ngắn và giải thích bằng tiếng Việt.
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
 - [ ] **W01-S5 · 120 phút:** Tự chạy lại chương trình từ đầu, phân biệt dự đoán với kết quả thật; ôn năm từ trọng tâm và điều chỉnh nhịp học theo khảo sát.
+
+**W01-S3 — môi trường đã xác minh (2026-10-21):** Windows 11 PowerShell trả về `git version 2.55.0.windows.5`. Đã chuẩn bị [giáo án Git W01-S3](learning/lessons/W01-S3.md) và hướng dẫn clone repository sang bản sao riêng `ciu-git-practice`. Chưa thực hiện clone/status/diff/add/commit; **không tích ô W01-S3**. [Nhật ký](learning/LEARNING-LOG.md#w01-s3-git-version-2026-10-21).
 
 **W01-S2 đã chạy REPL và tệp Python (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; môi trường hiển thị `(base)`. Đã chạy trong REPL và sau đó chạy `python .\hello.py` tại thư mục `python-study`, đều nhận đầu ra `Hello, Python!` và `15`. Bằng chứng: [Nhật ký REPL](learning/LEARNING-LOG.md#w01-s2-repl-2026-10-21) và [Nhật ký chạy tệp](learning/LEARNING-LOG.md#w01-s2-hello-py-2026-10-21). **Biến thể `print(4 + 6)` dự đoán và chạy đúng (`10`); đọc hiểu và 3/3 từ vựng đã đạt. W01-S2 PASS theo bài làm; chưa ghi thời lượng thực tế hoặc trình soạn thảo.** [Tổng kết W01-S2](learning/LEARNING-LOG.md#w01-s2-final-2026-10-21).
 
