@@ -2,20 +2,20 @@
 
 [Kế hoạch chi tiết](PLAN.md) · [Bài đầu tiên](learning/lessons/W01-S1.md) · [Nhật ký](learning/LEARNING-LOG.md) · [Sổ từ vựng](learning/VOCABULARY.md)
 
-**Ngày khởi tạo:** 20/10/2026. **Phạm vi:** 48 tuần học, 12 chặng, 240 buổi theo lịch mẫu 8 giờ/tuần. Đã thực hành khởi động, `print` và Input–Process–Output trong W01-S1 ngày 20/10/2026; các ô hoàn thành vẫn chưa đánh dấu vì buổi chưa đủ bằng chứng.
+**Ngày khởi tạo:** 20/10/2026. **Phạm vi:** 48 tuần học, 12 chặng, 240 buổi theo lịch mẫu 8 giờ/tuần. Đã hoàn thành nội dung và kiểm tra W01-S1 (5/5) ngày 21/10/2026; chưa xác nhận thời lượng 90 phút hoặc chạy Python thật.
 
 ## Bảng tiến độ hiện tại
 
 | Chỉ số | Giá trị |
 |---|---|
-| Tuần đang học | W01 — đang học W01-S1 |
-| Buổi tiếp theo | Tiếp [W01-S1](learning/lessons/W01-S1.md) — mã Python, sửa lỗi và đọc tiếng Anh |
-| Buổi đã thực hiện | 0/240 |
+| Tuần đang học | W01 — hoàn thành W01-S1, chuẩn bị W01-S2 |
+| Buổi tiếp theo | [W01-S2](learning/lessons/W01-S1.md#buổi-tiếp-theo) — cài Python 3 và chạy chương trình đầu tiên |
+| Buổi đã thực hiện | 1/240 (W01-S1 theo bằng chứng bài làm, thời lượng thực tế chưa ghi) |
 | Tuần đạt kỹ thuật | 0/48 — 0% |
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-20 — trả lời đúng 3/3 câu Input–Process–Output trong W01-S1 |
+| Cập nhật gần nhất | 2026-10-21 — W01-S1 PASS 5/5; chuyển W01-S2 |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -50,7 +50,7 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 
 **Nguồn:** [CIU — How to use it](README.md#how-to-use-it) · [CIU — Choose a Programming Language](README.md#choose-a-programming-language) · [Python Tutorial — tra cứu có hướng dẫn, bắt đầu với trình thông dịch](https://docs.python.org/3/tutorial/)
 
-- [ ] **W01-S1 · 90 phút:** Làm khảo sát đầu vào 40 phút; học 50 phút về chương trình, chỉ dẫn, đầu vào, đầu ra và chạy chương trình theo bài W01-S1.
+- [x] **W01-S1 · 90 phút:** Làm khảo sát đầu vào 40 phút; học 50 phút về chương trình, chỉ dẫn, đầu vào, đầu ra và chạy chương trình theo bài W01-S1.
 - [ ] **W01-S2 · 90 phút:** Cài Python 3 và trình soạn thảo phù hợp; chạy phiên tương tác và file .py, ghi phiên bản cùng lệnh đã dùng.
 - [ ] **W01-S3 · 90 phút:** Thực hành clone, status, diff, add và commit trên bài tập riêng; đọc thông báo Git ngắn và giải thích bằng tiếng Việt.
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
@@ -65,8 +65,8 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 - [ ] **W01-TECH — Kỹ thuật đạt:** Tự mở và chạy file .py; phân biệt mã nguồn với kết quả; đổi nội dung để kiểm tra hành vi; xem được thay đổi chưa commit bằng git diff.
 - [ ] **W01-EN — Tiếng Anh đạt:** Đạt tiêu chí 4/5 từ trong câu mới và đọc hiểu ở trên; đã lưu câu trả lời thực tế.
 
-**Bằng chứng:** [W01-S1 — khởi động](learning/LEARNING-LOG.md#w01-s1-2026-10-20-a1) và [W01-S1 — Input–Process–Output](learning/LEARNING-LOG.md#w01-s1-ipo-2026-10-20): xác định đúng `print`, xuống dòng và 3/3 thành phần IPO.  
-**Ngày học/đánh giá:** 2026-10-20, mới một phần S1 · **Ngày ôn tiếp:** chưa ấn định · **Việc cần làm:** áp dụng vào mã Python, sửa lỗi cú pháp, đọc đoạn tiếng Anh.
+**Bằng chứng:** [W01-S1 — khởi động](learning/LEARNING-LOG.md#w01-s1-2026-10-20-a1), [IPO](learning/LEARNING-LOG.md#w01-s1-ipo-2026-10-20), [kiểm tra cuối bài 5/5](learning/LEARNING-LOG.md#w01-s1-final-2026-10-21).  
+**Ngày học/đánh giá:** 2026-10-20 đến 2026-10-21; PASS nội dung S1, chưa có thời lượng thực tế · **Ngày ôn tiếp:** W01-S5 · **Việc cần làm:** W01-S2 cài/chạy Python; W01-TECH và W01-EN chưa đánh dấu.
 
 <a id="w02"></a>
 
