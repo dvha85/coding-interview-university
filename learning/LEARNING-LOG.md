@@ -2,7 +2,7 @@
 
 [Kế hoạch](../PLAN.md) · [Checklist](../CHECKLIST.md) · [Từ vựng](VOCABULARY.md) · [Bài đầu tiên](lessons/W01-S1.md)
 
-**Ngày khởi tạo:** 20/10/2026. **Trạng thái:** đang học W01-S1; đã ghi nhận các câu trả lời khởi động, bài tập `print` và Input–Process–Output ngày 20/10/2026, chưa hoàn thành cả buổi. Các phần mẫu bên dưới dùng để bổ sung bằng chứng thực tế.
+**Ngày khởi tạo:** 20/10/2026. **Trạng thái:** W01-S1 đã đạt bài kiểm tra tổng hợp 5/5 ngày 21/10/2026; chuyển sang W01-S2. Buổi S1 được xác nhận bằng bài làm trong chat, thời lượng thực tế chưa ghi. Các phần mẫu bên dưới dùng để bổ sung bằng chứng thực tế.
 
 CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. Khi cập nhật, thêm bản ghi mới hoặc bổ sung bản ghi của buổi tương ứng, giữ lại những lần làm trước và phần sửa lỗi.
 
@@ -10,10 +10,10 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | Tiếp W01-S1 — từ bài toán Input–Process–Output sang mã Python; bài đọc và sửa lỗi cú pháp |
-| Trình độ lập trình | Chưa đánh giá |
+| Buổi tiếp theo | W01-S2 — cài Python và kiểm chứng kết quả bằng chạy chương trình thật |
+| Trình độ lập trình | W01-S1: dự đoán đầu ra, cú pháp print, bài toán Input–Process–Output đạt 5/5 câu đánh giá |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
-| Khả năng đọc tiếng Anh | Chưa đánh giá |
+| Khả năng đọc tiếng Anh | W01-S1: hiểu 5/5 thuật ngữ và dịch đúng câu đọc hiểu ngắn; đánh giá tuần ở W01-S5 |
 | Thiết bị và hệ điều hành thực hành | Chưa ghi nhận; xác định khi làm W01-S2 |
 | Python thực tế | Chưa kiểm tra phiên bản/chạy thử |
 | Giờ học có thể duy trì | Chưa xác nhận; nhịp mẫu trong plan là 8 giờ/tuần |
@@ -26,8 +26,8 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 | Phần | Bài làm hoặc quan sát | Mức hỗ trợ | Hướng điều chỉnh |
 |---|---|---|---|
 | Đọc/dự đoán code | Dự đoán Hello5 và Hello6: đúng nội dung chữ/số; cần làm rõ hai dòng riêng | Chưa ghi nhận có chạy hoặc tra cứu | Kiểm tra lại xuống dòng bằng ví dụ mới |
-| Sửa lỗi/viết nếu đã biết | Chưa làm | Chưa ghi | Chưa quyết định |
-| Mô tả cách giải bằng tiếng Việt | Chưa làm | Chưa ghi | Chưa quyết định |
+| Sửa lỗi/viết nếu đã biết | Đã sửa đúng cú pháp `print("Done")` trong bài kiểm tra | Làm trong chat | Chạy kiểm chứng ở W01-S2 |
+| Mô tả cách giải bằng tiếng Việt | Đúng input/process/output, tổng tiền 60.000đ | Làm trong chat | Thực hành code ở W01-S2 |
 | Đọc tiếng Anh và nhận ra thuật ngữ | Dịch đúng Run the program = chạy chương trình; chưa có bài đọc đầy đủ | Câu trả lời trong chat | Tiếp tục thuật ngữ và bài đọc W01-S1 |
 
 ## 3. Mẫu ghi một buổi
@@ -167,3 +167,17 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Đánh giá: đúng ý chính; nên dịch `result` là **kết quả/kết quả thực tế** trong ngữ cảnh so sánh dự đoán với đầu ra, không nhất thiết là giá trị trả về của hàm. `prediction` = **sự dự đoán**.
 - Củng cố: Predict → Run → Compare (Dự đoán → Chạy → So sánh).
 - Bước tiếp theo: bài kiểm tra tổng hợp ngắn W01-S1 để xác nhận đọc hiểu, thuật ngữ và khả năng đọc/sửa Python. Chưa đánh dấu hoàn thành buổi trước khi nhận bài kiểm tra.
+
+
+<a id="w01-s1-final-2026-10-21"></a>
+
+### W01-S1 — Kiểm tra cuối bài: PASS 5/5 — 2026-10-21
+
+- Câu 1 — Dự đoán `print("7 - 2")` / `print(7 - 2)`: **đúng** hai dòng `7 - 2` và `5`.
+- Câu 2 — Sửa `print("Done"]`: **đúng**, người học viết `print("Done")`.
+- Câu 3 — Ba quyển sách giá 20.000đ/quyển: **đúng**, input 3 & 20.000; process số lượng × đơn giá; output 60.000.
+- Câu 4 — Năm từ `program`, `instruction`, `input`, `output`, `run`: **đúng 5/5**; `instruction` được trả lời là “lệnh”, chấp nhận theo ngữ cảnh.
+- Câu 5 — “Read the instructions, predict the output, and compare it with the result.”: **dịch đúng nghĩa**.
+- **Tổng 5/5 câu, PASS W01-S1** theo bài kiểm tra đầu ra và chuỗi bài làm trước đó; phần bài đọc đầy đủ được củng cố qua các đoạn đọc nhỏ tương ứng.
+- Không có lỗi kiến thức cần sửa. Việc chạy Python thực tế chuyển sang W01-S2. Không có bằng chứng chạy mã, và **thời gian học thực tế chưa được cung cấp**; không tự suy ra đã học đủ 90 phút.
+- Buổi W01-S1 đánh dấu đã thực hiện theo bằng chứng học và đánh giá tương đương; **hai tiêu chí W01-TECH và W01-EN chưa đánh dấu**, sẽ xét cuối W01-S5 theo tiêu chí tuần.
