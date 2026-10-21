@@ -15,7 +15,7 @@
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-21 — xác nhận Windows 11, tạo giáo án W01-S2; chờ kết quả chạy Python |
+| Cập nhật gần nhất | 2026-10-21 — `python` 3.13.13 và `py` 3.11.9 hoạt động; W01-S2 đang học, chờ chạy mã |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -55,6 +55,8 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 - [ ] **W01-S3 · 90 phút:** Thực hành clone, status, diff, add và commit trên bài tập riêng; đọc thông báo Git ngắn và giải thích bằng tiếng Việt.
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
 - [ ] **W01-S5 · 120 phút:** Tự chạy lại chương trình từ đầu, phân biệt dự đoán với kết quả thật; ôn năm từ trọng tâm và điều chỉnh nhịp học theo khảo sát.
+
+**W01-S2 đã xác minh môi trường (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; dòng lệnh hiển thị `(base)`. Đang dùng `python` để thực hành. Chưa có đầu ra từ chương trình hoặc tệp `.py`, vì vậy **không tích ô W01-S2**. Chi tiết: [Nhật ký](learning/LEARNING-LOG.md).
 
 **Từ vựng gợi ý:** program — chương trình; instruction — chỉ dẫn hoặc câu lệnh; input — dữ liệu vào; output — kết quả đầu ra; run — chạy chương trình.
 
