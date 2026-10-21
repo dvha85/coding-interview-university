@@ -10,7 +10,7 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | [W01-S3](lessons/W01-S3.md) — Git 2.55.0.windows.5 đã hoạt động; bước kế tiếp clone bản sao thực hành |
+| Buổi tiếp theo | [W01-S3](lessons/W01-S3.md) — clone/status PASS; tiếp theo chỉnh tệp đã theo dõi và thực hành git diff |
 | Trình độ lập trình | W01-S1: PASS 5/5; W01-S2: đã chạy REPL, tệp hello.py và biến thể sau khi dự đoán; đầu ra khớp thực tế |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
 | Khả năng đọc tiếng Anh | W01-S1: 5/5 từ; W01-S2: dịch đúng hướng dẫn và 3/3 từ (install, interpreter, script); đánh giá tuần ở W01-S5 |
@@ -295,3 +295,29 @@ Hello, Python!
 - Đã tạo [giáo án W01-S3 Windows 11](lessons/W01-S3.md), sử dụng bản sao cục bộ `ciu-git-practice` để không đụng đến dự án Python đang làm. Không yêu cầu `git push`.
 - **Trạng thái:** W01-S3 đang học, chưa hoàn thành; số buổi vẫn **2/240**; chưa có thời lượng thực tế hay kết quả bài đọc tiếng Anh W01-S3.
 - **Tiếp theo:** PowerShell `cd D:\Project\Learn`; `git clone https://github.com/dvha85/coding-interview-university.git ciu-git-practice`; `cd .\ciu-git-practice`; `git status`; gửi đầu ra thực tế.
+
+
+<a id="w01-s3-clone-status-2026-10-21"></a>
+
+### W01-S3 — Clone repository và git status thành công — 2026-10-21
+
+- Người học dùng PowerShell trong `D:\Project\Learn` chạy:
+
+```powershell
+git clone https://github.com/dvha85/coding-interview-university.git ciu-git-practice
+cd .\ciu-git-practice
+git status
+```
+
+- **Bằng chứng thực tế:** `Cloning into 'ciu-git-practice'...`; `Receiving objects: 100% (8504/8504)`; `Resolving deltas: 100% (5265/5265)`; đầu ra trạng thái:
+
+```text
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+
+- Đánh giá: **PASS bước `git clone` và `git status`**. Bản sao nằm trong thư mục riêng `D:\Project\Learn\ciu-git-practice`, không có thay đổi cục bộ tại thời điểm kiểm tra. Câu `up to date with 'origin/main'` dựa vào thông tin remote-tracking đã biết tại thời điểm clone/kiểm tra, không phải kiểm tra máy chủ theo thời gian thực.
+- **Còn thiếu trước khi PASS W01-S3:** tự sửa một tệp đã theo dõi, kiểm tra `git diff`, thực hành `git add`, `git commit`, và đọc hiểu từ vựng Git. Chưa biết thời lượng học thực tế; **tiến độ toàn khóa vẫn 2/240**.
+- Bước tiếp theo: chỉnh tệp `learning/lessons/W01-S3.md` trong bản sao riêng; chạy `git status` và `git diff`, gửi đầu ra thực tế. Không `git push` trong bài này.
