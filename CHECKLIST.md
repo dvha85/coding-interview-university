@@ -8,14 +8,14 @@
 
 | Chỉ số | Giá trị |
 |---|---|
-| Tuần đang học | W01 — hoàn thành W01-S1, chuẩn bị W01-S2 |
-| Buổi tiếp theo | [W01-S2](learning/lessons/W01-S1.md#buổi-tiếp-theo) — cài Python 3 và chạy chương trình đầu tiên |
+| Tuần đang học | W01 — W01-S1 PASS, bắt đầu W01-S2 trên Windows 11 |
+| Buổi tiếp theo | [W01-S2](learning/lessons/W01-S2.md) — cài/kiểm tra Python trên Windows 11 và chạy đầu tiên |
 | Buổi đã thực hiện | 1/240 (W01-S1 theo bằng chứng bài làm, thời lượng thực tế chưa ghi) |
 | Tuần đạt kỹ thuật | 0/48 — 0% |
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-21 — W01-S1 PASS 5/5; chuyển W01-S2 |
+| Cập nhật gần nhất | 2026-10-21 — xác nhận Windows 11, tạo giáo án W01-S2; chờ kết quả chạy Python |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -51,7 +51,7 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 **Nguồn:** [CIU — How to use it](README.md#how-to-use-it) · [CIU — Choose a Programming Language](README.md#choose-a-programming-language) · [Python Tutorial — tra cứu có hướng dẫn, bắt đầu với trình thông dịch](https://docs.python.org/3/tutorial/)
 
 - [x] **W01-S1 · 90 phút:** Làm khảo sát đầu vào 40 phút; học 50 phút về chương trình, chỉ dẫn, đầu vào, đầu ra và chạy chương trình theo bài W01-S1.
-- [ ] **W01-S2 · 90 phút:** Cài Python 3 và trình soạn thảo phù hợp; chạy phiên tương tác và file .py, ghi phiên bản cùng lệnh đã dùng.
+- [ ] **[W01-S2](learning/lessons/W01-S2.md) · 90 phút:** Cài Python 3 và trình soạn thảo phù hợp trên Windows 11; chạy phiên tương tác và file .py, ghi phiên bản cùng lệnh đã dùng.
 - [ ] **W01-S3 · 90 phút:** Thực hành clone, status, diff, add và commit trên bài tập riêng; đọc thông báo Git ngắn và giải thích bằng tiếng Việt.
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
 - [ ] **W01-S5 · 120 phút:** Tự chạy lại chương trình từ đầu, phân biệt dự đoán với kết quả thật; ôn năm từ trọng tâm và điều chỉnh nhịp học theo khảo sát.
