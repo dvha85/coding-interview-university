@@ -2,20 +2,20 @@
 
 [Kế hoạch chi tiết](PLAN.md) · [Bài đầu tiên](learning/lessons/W01-S1.md) · [Nhật ký](learning/LEARNING-LOG.md) · [Sổ từ vựng](learning/VOCABULARY.md)
 
-**Ngày khởi tạo:** 20/10/2026. **Phạm vi:** 48 tuần học, 12 chặng, 240 buổi theo lịch mẫu 8 giờ/tuần. Đã hoàn thành nội dung và kiểm tra W01-S1 (5/5) ngày 21/10/2026; chưa xác nhận thời lượng 90 phút hoặc chạy Python thật.
+**Ngày khởi tạo:** 20/10/2026. **Phạm vi:** 48 tuần học, 12 chặng, 240 buổi theo lịch mẫu 8 giờ/tuần. Đã hoàn thành W01-S1 (5/5) và W01-S2 (chạy Python thật, kiểm chứng và đọc hiểu) ngày 21/10/2026; chưa ghi nhận thời lượng thực tế hoặc trình soạn thảo.
 
 ## Bảng tiến độ hiện tại
 
 | Chỉ số | Giá trị |
 |---|---|
-| Tuần đang học | W01 — W01-S1 PASS, bắt đầu W01-S2 trên Windows 11 |
-| Buổi tiếp theo | [W01-S2](learning/lessons/W01-S2.md) — kiểm tra đọc hiểu tiếng Anh và tổng kết |
-| Buổi đã thực hiện | 1/240 (W01-S1 theo bằng chứng bài làm, thời lượng thực tế chưa ghi) |
+| Tuần đang học | W01 — W01-S1 và W01-S2 PASS, chuẩn bị W01-S3 |
+| Buổi tiếp theo | W01-S3 — Git cơ bản: clone, status, diff, add, commit |
+| Buổi đã thực hiện | 2/240 (W01-S1, W01-S2; thời lượng thực tế chưa ghi) |
 | Tuần đạt kỹ thuật | 0/48 — 0% |
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-21 — dự đoán và chạy biến thể `print(4 + 6)` đều ra `Hello, Python!` và `10`; còn bài đọc hiểu W01-S2 |
+| Cập nhật gần nhất | 2026-10-21 — W01-S2 PASS: Python chạy thật, biến thể đúng, dịch câu đọc và 3/3 từ vựng; kế tiếp W01-S3 |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -51,12 +51,12 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 **Nguồn:** [CIU — How to use it](README.md#how-to-use-it) · [CIU — Choose a Programming Language](README.md#choose-a-programming-language) · [Python Tutorial — tra cứu có hướng dẫn, bắt đầu với trình thông dịch](https://docs.python.org/3/tutorial/)
 
 - [x] **W01-S1 · 90 phút:** Làm khảo sát đầu vào 40 phút; học 50 phút về chương trình, chỉ dẫn, đầu vào, đầu ra và chạy chương trình theo bài W01-S1.
-- [ ] **[W01-S2](learning/lessons/W01-S2.md) · 90 phút:** Cài Python 3 và trình soạn thảo phù hợp trên Windows 11; chạy phiên tương tác và file .py, ghi phiên bản cùng lệnh đã dùng.
+- [x] **[W01-S2](learning/lessons/W01-S2.md) · 90 phút:** Cài Python 3 và trình soạn thảo phù hợp trên Windows 11; chạy phiên tương tác và file .py, ghi phiên bản cùng lệnh đã dùng.
 - [ ] **W01-S3 · 90 phút:** Thực hành clone, status, diff, add và commit trên bài tập riêng; đọc thông báo Git ngắn và giải thích bằng tiếng Việt.
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
 - [ ] **W01-S5 · 120 phút:** Tự chạy lại chương trình từ đầu, phân biệt dự đoán với kết quả thật; ôn năm từ trọng tâm và điều chỉnh nhịp học theo khảo sát.
 
-**W01-S2 đã chạy REPL và tệp Python (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; môi trường hiển thị `(base)`. Đã chạy trong REPL và sau đó chạy `python .\hello.py` tại thư mục `python-study`, đều nhận đầu ra `Hello, Python!` và `15`. Bằng chứng: [Nhật ký REPL](learning/LEARNING-LOG.md#w01-s2-repl-2026-10-21) và [Nhật ký chạy tệp](learning/LEARNING-LOG.md#w01-s2-hello-py-2026-10-21). **Biến thể `print(4 + 6)` đã dự đoán và chạy đúng (`10`), còn đọc hiểu tiếng Anh nên chưa tích ô W01-S2.**
+**W01-S2 đã chạy REPL và tệp Python (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; môi trường hiển thị `(base)`. Đã chạy trong REPL và sau đó chạy `python .\hello.py` tại thư mục `python-study`, đều nhận đầu ra `Hello, Python!` và `15`. Bằng chứng: [Nhật ký REPL](learning/LEARNING-LOG.md#w01-s2-repl-2026-10-21) và [Nhật ký chạy tệp](learning/LEARNING-LOG.md#w01-s2-hello-py-2026-10-21). **Biến thể `print(4 + 6)` dự đoán và chạy đúng (`10`); đọc hiểu và 3/3 từ vựng đã đạt. W01-S2 PASS theo bài làm; chưa ghi thời lượng thực tế hoặc trình soạn thảo.** [Tổng kết W01-S2](learning/LEARNING-LOG.md#w01-s2-final-2026-10-21).
 
 **Từ vựng gợi ý:** program — chương trình; instruction — chỉ dẫn hoặc câu lệnh; input — dữ liệu vào; output — kết quả đầu ra; run — chạy chương trình.
 
