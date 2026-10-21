@@ -15,7 +15,7 @@
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-21 — `python` 3.13.13 và `py` 3.11.9 hoạt động; W01-S2 đang học, chờ chạy mã |
+| Cập nhật gần nhất | 2026-10-21 — Python 3.13.13 (Anaconda) chạy `print()` trong REPL thành công; chờ chạy `hello.py` |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -56,7 +56,7 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
 - [ ] **W01-S5 · 120 phút:** Tự chạy lại chương trình từ đầu, phân biệt dự đoán với kết quả thật; ôn năm từ trọng tâm và điều chỉnh nhịp học theo khảo sát.
 
-**W01-S2 đã xác minh môi trường (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; dòng lệnh hiển thị `(base)`. Đang dùng `python` để thực hành. Chưa có đầu ra từ chương trình hoặc tệp `.py`, vì vậy **không tích ô W01-S2**. Chi tiết: [Nhật ký](learning/LEARNING-LOG.md).
+**W01-S2 đã xác minh môi trường và chạy tương tác (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; dòng lệnh hiển thị `(base)`. Đã chạy `print("Hello, Python!")`, `print(3 * 5)` trong Python 3.13.13 (Anaconda), đầu ra thực tế lần lượt `Hello, Python!`, `15`; thoát bằng `exit()`. **Chưa tạo/chạy tệp `.py` nên không tích ô W01-S2.** Bằng chứng: [Nhật ký REPL](learning/LEARNING-LOG.md#w01-s2-repl-2026-10-21).
 
 **Từ vựng gợi ý:** program — chương trình; instruction — chỉ dẫn hoặc câu lệnh; input — dữ liệu vào; output — kết quả đầu ra; run — chạy chương trình.
 
