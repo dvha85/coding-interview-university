@@ -9,13 +9,13 @@
 | Chỉ số | Giá trị |
 |---|---|
 | Tuần đang học | W01 — W01-S1 PASS, bắt đầu W01-S2 trên Windows 11 |
-| Buổi tiếp theo | [W01-S2](learning/lessons/W01-S2.md) — kiểm tra biến thể Python và đọc hiểu tiếng Anh |
+| Buổi tiếp theo | [W01-S2](learning/lessons/W01-S2.md) — kiểm tra đọc hiểu tiếng Anh và tổng kết |
 | Buổi đã thực hiện | 1/240 (W01-S1 theo bằng chứng bài làm, thời lượng thực tế chưa ghi) |
 | Tuần đạt kỹ thuật | 0/48 — 0% |
 | Tuần đạt tiếng Anh | 0/48 — 0% |
 | Chặng hoàn thành cả hai mục tiêu | 0/12 |
 | Thời gian thực học đã ghi | Chưa cung cấp thời lượng; chưa cộng giờ |
-| Cập nhật gần nhất | 2026-10-21 — đã chạy `python .\hello.py` thành công, đầu ra `Hello, Python!` và `15`; W01-S2 chưa hoàn thành |
+| Cập nhật gần nhất | 2026-10-21 — dự đoán và chạy biến thể `print(4 + 6)` đều ra `Hello, Python!` và `10`; còn bài đọc hiểu W01-S2 |
 
 Các số ở bảng này được cập nhật thủ công từ những ô bên dưới; chúng không tự thay đổi khi tích ô. Kỹ thuật và tiếng Anh có thể tiến ở nhịp khác nhau. Buổi học đếm việc thực hiện; hai ô đánh giá đếm năng lực đã có bằng chứng.
 
@@ -56,7 +56,7 @@ Các số ở bảng này được cập nhật thủ công từ những ô bên
 - [ ] **W01-S4 · 90 phút:** Chạy ví dụ print của S1; đổi nội dung và thứ tự hai dòng, dự đoán kết quả rồi đối chiếu; sửa một lỗi dấu ngoặc.
 - [ ] **W01-S5 · 120 phút:** Tự chạy lại chương trình từ đầu, phân biệt dự đoán với kết quả thật; ôn năm từ trọng tâm và điều chỉnh nhịp học theo khảo sát.
 
-**W01-S2 đã chạy REPL và tệp Python (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; môi trường hiển thị `(base)`. Đã chạy trong REPL và sau đó chạy `python .\hello.py` tại thư mục `python-study`, đều nhận đầu ra `Hello, Python!` và `15`. Bằng chứng: [Nhật ký REPL](learning/LEARNING-LOG.md#w01-s2-repl-2026-10-21) và [Nhật ký chạy tệp](learning/LEARNING-LOG.md#w01-s2-hello-py-2026-10-21). **Còn biến thể và đọc hiểu tiếng Anh nên không tích ô W01-S2.**
+**W01-S2 đã chạy REPL và tệp Python (2026-10-21):** `python --version` → `Python 3.13.13`; `py --version` → `Python 3.11.9`; môi trường hiển thị `(base)`. Đã chạy trong REPL và sau đó chạy `python .\hello.py` tại thư mục `python-study`, đều nhận đầu ra `Hello, Python!` và `15`. Bằng chứng: [Nhật ký REPL](learning/LEARNING-LOG.md#w01-s2-repl-2026-10-21) và [Nhật ký chạy tệp](learning/LEARNING-LOG.md#w01-s2-hello-py-2026-10-21). **Biến thể `print(4 + 6)` đã dự đoán và chạy đúng (`10`), còn đọc hiểu tiếng Anh nên chưa tích ô W01-S2.**
 
 **Từ vựng gợi ý:** program — chương trình; instruction — chỉ dẫn hoặc câu lệnh; input — dữ liệu vào; output — kết quả đầu ra; run — chạy chương trình.
 
