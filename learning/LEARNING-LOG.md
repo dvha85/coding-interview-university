@@ -10,12 +10,12 @@ CHECKLIST.md giữ trạng thái chính; nhật ký này giữ bằng chứng. K
 
 | Thông tin | Giá trị hiện tại |
 |---|---|
-| Buổi tiếp theo | [W01-S2](lessons/W01-S2.md) — kiểm tra Python trên Windows 11, cài và chạy chương trình thật |
+| Buổi tiếp theo | [W01-S2](lessons/W01-S2.md) — chạy Python tương tác, sau đó tạo và chạy `hello.py` |
 | Trình độ lập trình | W01-S1: dự đoán đầu ra, cú pháp print, bài toán Input–Process–Output đạt 5/5 câu đánh giá |
 | Ngôn ngữ đã dùng | Chưa xác nhận cho kế hoạch này |
 | Khả năng đọc tiếng Anh | W01-S1: hiểu 5/5 thuật ngữ và dịch đúng câu đọc hiểu ngắn; đánh giá tuần ở W01-S5 |
 | Thiết bị và hệ điều hành thực hành | Windows 11 (người học xác nhận 21/10/2026); chưa xác nhận trình soạn thảo |
-| Python thực tế | Chưa kiểm tra phiên bản/chạy thử |
+| Python thực tế | Windows Terminal: `python --version` → Python 3.13.13; `py --version` → Python 3.11.9; chưa thử chạy mã |
 | Giờ học có thể duy trì | Chưa xác nhận; nhịp mẫu trong plan là 8 giờ/tuần |
 | Ngày bắt đầu thực học | 2026-10-20 — bài khởi động trong chat |
 
@@ -189,3 +189,20 @@ Với phép nhân, chỉ dòng số đổi thành 6. Nguồn đối chiếu: [Py
 - Đã chuẩn bị [giáo án W01-S2 riêng cho Windows 11](lessons/W01-S2.md), gồm kiểm tra/cài Python, chạy REPL, chạy file `hello.py`, từ vựng và tiêu chí kiểm chứng.
 - Chưa xác nhận Python, Visual Studio Code đã cài hay kết quả lệnh chạy thực tế. **W01-S2 chưa hoàn thành**, chưa đánh dấu checklist.
 - Bước tiếp theo: người học chạy `python --version` và `py --version`, gửi đầu ra thực tế để tiếp tục.
+
+
+### W01-S2 — Kiểm tra phiên bản Python trên Windows 11 — 2026-10-21
+
+- Lệnh và **đầu ra thực tế** do người học cung cấp từ Terminal:
+
+```powershell
+(base) PS C:\Users\hadv> python --version
+Python 3.13.13
+(base) PS C:\Users\hadv> py --version
+Python 3.11.9
+```
+
+- Kết luận: Python 3 đã có và cả hai lệnh đều hoạt động; không cần cài lại. Hai lệnh hiện chọn hai phiên bản khác nhau, không mặc nhiên là lỗi. Tiền tố `(base)` gợi ý môi trường Conda base đang kích hoạt nhưng **chưa xác minh đường dẫn trình thông dịch**.
+- Quyết định buổi này: thống nhất sử dụng `python` (3.13.13) cho các bước tiếp theo, lưu ý chọn cùng trình thông dịch trong VS Code nếu cần.
+- **Đã hoàn thành:** bước kiểm tra phiên bản. **Chưa có bằng chứng:** chạy `print()` trong REPL, chạy tệp `hello.py`, VS Code, phần đọc hiểu; **chưa đánh dấu W01-S2 hoàn thành**.
+- Bước tiếp theo: nhập `python` rồi chạy `print("Hello, Python!")` và `print(3 * 5)` trong Python REPL, gửi đầu ra thực tế.
